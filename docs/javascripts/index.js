@@ -64,7 +64,7 @@ let count = 0;
 
 function change(){
     $("#phrase").text(phrases[count]);
-    count < 3 ? count++ : count = 0;
+    count < phrases.length ? count++ : count = 0;
 
 }
 
